@@ -1,0 +1,30 @@
+.add-product {
+  text-align: center;
+  padding: 20px;
+}
+
+.add-product form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: auto;
+}
+
+.add-product input, .add-product textarea, .add-product select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-product button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.add-product button:hover {
+  background-color: #218838;
+}

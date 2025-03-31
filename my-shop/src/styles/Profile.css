@@ -1,0 +1,21 @@
+.profile {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .profile-info {
+    margin-bottom: 20px;
+  }
+  
+  .profile ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .profile li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+  }
+
+  

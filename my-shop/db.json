@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Товар 1",
+      "seller": "Продавец 1",
+      "price": 100,
+      "image": "url_to_image",
+      "category": "Электроника",
+      "description": "Описание товара 1"
+    },
+    {
+      "id": "5960",
+      "name": "роророор",
+      "seller": "testuser1",
+      "price": "1",
+      "description": "ваыва",
+      "image": "",
+      "category": "Книги"
+    }
+  ],
+  "cart": [
+    {
+      "id": "1",
+      "name": "Товар 1",
+      "seller": "Продавец 1",
+      "price": 100,
+      "image": "url_to_image",
+      "description": "Описание товара 1"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "testuser",
+      "password": "testpassword"
+    }
+  ],
+  "orders": []
+}
