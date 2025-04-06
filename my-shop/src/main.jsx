@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import './styles/index.css';
-import AddProduct from './pages/AddProduct';
+import AddProduct from './components/AddProduct';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
