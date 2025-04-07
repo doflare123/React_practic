@@ -17,6 +17,15 @@
       "description": "ваыва",
       "image": "",
       "category": "Книги"
+    },
+    {
+      "id": "e314",
+      "name": "Деревянный констркутор",
+      "seller": "NewUser",
+      "price": "400",
+      "description": "Это небольшой набор для мелкой маторики",
+      "image": "",
+      "category": "Игрушки"
     }
   ],
   "cart": [
@@ -27,6 +36,15 @@
       "price": 100,
       "image": "url_to_image",
       "description": "Описание товара 1"
+    },
+    {
+      "id": "1",
+      "name": "Товар 1",
+      "seller": "Продавец 1",
+      "price": 100,
+      "image": "url_to_image",
+      "category": "Электроника",
+      "description": "Описание товара 1"
     }
   ],
   "users": [
@@ -34,7 +52,36 @@
       "id": "1",
       "username": "testuser",
       "password": "testpassword"
+    },
+    {
+      "id": "79dc",
+      "username": "NewUser",
+      "password": "testpassword"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "id": "d24b",
+      "userId": "79dc",
+      "items": [
+        {
+          "id": "1",
+          "name": "Товар 1",
+          "seller": "Продавец 1",
+          "price": 100,
+          "image": "url_to_image",
+          "description": "Описание товара 1"
+        },
+        {
+          "id": "1",
+          "name": "Товар 1",
+          "seller": "Продавец 1",
+          "price": 100,
+          "image": "url_to_image",
+          "category": "Электроника",
+          "description": "Описание товара 1"
+        }
+      ]
+    }
+  ]
 }
